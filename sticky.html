@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*child selector - only direct children*/
+        div > p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- combinators - combination of multiple selectors -->
+     <!-- grandparent -->
+      <div>
+        <!-- parent -->
+        <div>
+            <!-- child -->
+             <p>Child</p>
+            <div>
+                <p>GrandChild</p>
+            </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: purple;
+        }
+        div:hover{
+            background-color: blue;
+            border-radius: 50%;
+        }
+        div:active{
+            background-color: green;
+        }
+        div:focus{
+            background-color: yellow;
+        }
+        /* Hover is triggered when the mouse is over the element. */
+    </style>
+</head>
+<body>
+     psuedo classes are used to define the special state of an element. 
+    <div>
+
+    </div>
+    <br>
+    <input type="text" placeholder="Focus on study">
+</body>
+</html>
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div::after{
+            content: "GLA University";
+            color: black;
+        }
+        p::before{
+            content: "I am from ";
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <!-- pseudoelements - used to add/modify specific parts of an element.
+     it is represented by double colon -->
+     <div>I am from </div>
+     <p>Mathura</p>
+     <section> I love coding</section><br>
+     <article>I love to  travel around the world</article>
+</body>
+</html>

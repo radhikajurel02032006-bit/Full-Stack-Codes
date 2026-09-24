@@ -1,0 +1,26 @@
+div {
+    background-color: greenyellow;
+    height: 100px;
+    width: 100px;
+    /*padding: 20px;
+    padding:top right bottom left;
+    padding: 20px 30px 20px 30px;
+    padding: 30px 20px;*/
+    margin:10px;
+    /*margin: 20px 30px 20px 30px;
+    margin:30px 20px;*/
+    color:blue;
+    text-align:center;
+    font-family: fantasy;
+    font-weight:bolder;
+    font-size:x-large;
+    border: 5px solid black;
+
+
+    
+    
+}
+
+
+/*padding->inner spacing or spacing between the content and the border
+margin->outer spacing or spacing outside the element border*/

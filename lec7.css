@@ -1,0 +1,23 @@
+/* Element selector */
+div {
+    color:red;
+}
+
+p {
+    color:green;
+}
+
+.divClass{
+    color:blueviolet;
+}
+
+#divId{
+    color:plum;
+}
+
+/*classes are used for common styling
+Ids are used for unique styling
+in css class is always marked with .
+in inline css we use style as attribute wuth some other html tag in body of the html file
+cascading means 
+based on the below priority browser decides which styles to apply as styles can come 

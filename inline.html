@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color:darkmagenta;
+            height:400px;
+            width:400px;
+            text-align: center;
+
+            
+        }
+        /*pseudo class -- it is used to add interaction to the state of the element*/
+        div:hover{
+            background-color:hotpink;
+            color:black;
+
+        }
+        /*psuedo elements-- it is used to add/insert/modify content within the html element*/
+        div::first-letter {
+            text-transform: capitalize;
+        }
+        
+        div::before{
+            content:"first";
+        }
+        div::after{
+            content:"Second";
+        }
+        
+
+    </style>
+</head>
+<body>
+    <!--selector are used to select or target elements in html file-->
+    <!--element selector-->
+    <!--Id selector-->
+    <!--Class selector-->
+    <!--priority-- id selector > class selector > element selector-->
+    <div>radhika</div>
+</body>
+</html>
+
+
+<!---->
